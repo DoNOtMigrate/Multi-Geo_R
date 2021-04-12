@@ -1,0 +1,78 @@
+﻿2021-04-07 13:05:38> Program: Starting Squirrel Updater: --createShortcut=Teams.exe -l=StartMenu,Desktop
+2021-04-07 13:05:38> UpdateManager: using rootAppDirectory: C:\Users\Administrator\AppData\Local\Microsoft\Teams
+2021-04-07 13:05:38> ApplyReleasesImpl: About to create shortcuts for Teams.exe, rootAppDir C:\Users\Administrator\AppData\Local\Microsoft\Teams
+2021-04-07 13:05:38> ApplyReleasesImpl: In linkTargetForVersionInfo
+2021-04-07 13:05:38> ApplyReleasesImpl: Creating shortcut for Teams.exe => C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Teams.lnk
+2021-04-07 13:05:38> ApplyReleasesImpl: About to save shortcut: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Teams.lnk (target C:\Users\Administrator\AppData\Local\Microsoft\Teams\Update.exe, workingDir C:\Users\Administrator\AppData\Local\Microsoft\Teams, args --processStart "Teams.exe", toastActivatorCSLID d1b22d3d-8585-53a6-acb3-0e803c7e8d2a)
+2021-04-07 13:05:38> ApplyReleasesImpl: In linkTargetForVersionInfo
+2021-04-07 13:05:38> ApplyReleasesImpl: Creating shortcut for Teams.exe => C:\Users\Administrator\Desktop\Microsoft Teams.lnk
+2021-04-07 13:05:38> ApplyReleasesImpl: About to save shortcut: C:\Users\Administrator\Desktop\Microsoft Teams.lnk (target C:\Users\Administrator\AppData\Local\Microsoft\Teams\Update.exe, workingDir C:\Users\Administrator\AppData\Local\Microsoft\Teams, args --processStart "Teams.exe", toastActivatorCSLID d1b22d3d-8585-53a6-acb3-0e803c7e8d2a)
+2021-04-07 13:05:38> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2021-04-07 13:05:38> ApplyReleasesImpl: Examining Pin: Firefox Developer Edition.lnk
+2021-04-07 13:05:38> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2021-04-07 13:05:38> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2021-04-07 13:05:38> ApplyReleasesImpl: Examining Pin: Opera Browser.lnk
+2021-04-07 13:05:38> ApplyReleasesImpl: Examining Pin: Outlook.lnk
+2021-04-07 13:21:30> Program: Starting Squirrel Updater: --update C:\Users\Administrator\AppData\Roaming\Microsoft\Teams\DownloadedUpdate
+2021-04-07 13:21:31> Program: Starting update, downloading from C:\Users\Administrator\AppData\Roaming\Microsoft\Teams\DownloadedUpdate
+2021-04-07 13:21:31> UpdateManager: using rootAppDirectory: C:\Users\Administrator\AppData\Local\Microsoft\Teams
+2021-04-07 13:21:31> Program: About to update to: C:\Users\Administrator\AppData\Local\Microsoft\Teams
+2021-04-07 13:21:31> CheckForUpdateImpl: Generated new staging user ID: 82ec32ff-a670-5948-b284-059853f5be53
+2021-04-07 13:21:31> CheckForUpdateImpl: Reading RELEASES file from C:\Users\Administrator\AppData\Roaming\Microsoft\Teams\DownloadedUpdate
+2021-04-07 13:21:31> ApplyReleasesImpl: No delta packages found. Applying current release package.
+2021-04-07 13:21:31> ApplyReleasesImpl: Writing files to app directory: C:\Users\Administrator\AppData\Local\Microsoft\Teams\stage
+2021-04-07 13:21:38> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\Administrator\AppData\Local\Microsoft\Teams\stage\Teams.exe]
+2021-04-07 13:21:54> ApplyReleasesImpl: Couldn't run Squirrel hook, continuing: C:\Users\Administrator\AppData\Local\Microsoft\Teams\stage\Teams.exe: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Squirrel.Utility.<>c__DisplayClass12_0.<InvokeProcessAsync>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<InvokeProcessAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<>c__DisplayClass21_1.<<invokePostInstall>b__2>d.MoveNext()
+2021-04-07 13:21:54> ApplyReleasesImpl: About to RemoveOldShorcuts for Teams.exe, rootAppDir C:\Users\Administrator\AppData\Local\Microsoft\Teams
+2021-04-07 13:21:54> ApplyReleasesImpl: Starting fixPinnedExecutables
+2021-04-07 13:21:54> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2021-04-07 13:21:54> ApplyReleasesImpl: Examining Pin: Firefox Developer Edition.lnk
+2021-04-07 13:21:54> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2021-04-07 13:21:54> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2021-04-07 13:21:54> ApplyReleasesImpl: Examining Pin: Microsoft Teams.lnk
+2021-04-07 13:21:54> ApplyReleasesImpl: Examining Pin: Opera Browser.lnk
+2021-04-07 13:21:54> ApplyReleasesImpl: Examining Pin: Outlook.lnk
+2021-04-07 13:21:54> ApplyReleasesImpl: Processing shortcut 'C:\Users\Administrator\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Microsoft Teams.lnk'
+2021-04-07 13:21:54> ApplyReleasesImpl: Old shortcut target: 'C:\Users\Administrator\AppData\Local\Microsoft\Teams\Update.exe'
+2021-04-07 13:21:54> ApplyReleasesImpl: New shortcut target: 'C:\Users\Administrator\AppData\Local\Microsoft\Teams\Update.exe'
+2021-04-07 13:21:54> ApplyReleasesImpl: Old iconPath is: 'C:\Users\Administrator\AppData\Local\Microsoft\Teams\current\Teams.exe'
+2021-04-07 13:21:54> ApplyReleasesImpl: Finished shortcut successfully
+2021-04-07 13:21:54> ApplyReleasesImpl: Fixing up tray icons
+2021-04-07 13:21:54> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__24_0(RegistryView view)
+2021-04-07 13:21:54> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__24_0(RegistryView view)
+2021-04-07 13:21:54> MeetingAddinInstaller: System.ArgumentException: Cannot delete a subkey tree because the subkey does not exist.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   at Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2021-04-07 13:21:54> MeetingAddinInstaller: There is no version.txt. Falling back to getting version from folder name
+2021-04-07 13:21:54> MeetingAddinInstaller: Version: 1.0.21092.3; addinPackageDirectory: 1.0.21092.3
+2021-04-07 13:21:54> MeetingAddinInstaller: .dead exists: False
+2021-04-07 13:21:54> MeetingAddinInstaller: path to .dead: C:\Users\Administrator\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.21092.3\.dead
+2021-04-07 13:21:54> MeetingAddinInstaller: before cleanup unused versions
+2021-04-07 13:21:54> MeetingAddinInstaller: Addin directory exists. Copy was successful
+2021-04-07 13:21:55> MeetingAddinInstaller: Version 1.0.21092.3 of the meeting add-in is now installed
+2021-04-07 13:21:55> PresenceAddinInstaller: Installing Teams Presence addin for Outlook...
+2021-04-07 13:21:55> PresenceAddinInstaller: check if UC TypeLib points to current\resources\assets\tlb\Uc.tlb
+2021-04-07 13:21:55> PresenceAddinInstaller: UC Typelib WIN32 is registered under HKCU and file exists. Registration not needed!
+2021-04-07 13:21:55> PresenceAddinInstaller: UC Typelib WIN64 is registered under HKLM and file exists. Registration not needed!
+2021-04-07 13:21:55> ApplyReleasesImpl: cleanDeadVersions: for original version of 1.4.00.6073 and current version of 1.4.00.9671
+2021-04-07 13:21:55> ApplyReleasesImpl: cleanDeadVersions: exclude original folder stage
+2021-04-07 13:21:55> ApplyReleasesImpl: cleanDeadVersions: exclude current folder stage
+2021-04-07 14:23:32> Program: Starting Squirrel Updater: --processStart Teams.exe
+2021-04-07 14:23:33> Program: Want to launch 'C:\Users\Administrator\AppData\Local\Microsoft\Teams\current\Teams.exe'
+2021-04-07 14:23:34> Program: About to launch: 'C:\Users\Administrator\AppData\Local\Microsoft\Teams\current\Teams.exe': 
